@@ -1,0 +1,54 @@
+{
+  "name": "@akshaay9/finaluitest",
+  "version": "0.0.1",
+  "description": "test Ui Desc",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "predeploy": "npm run build-storybook",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "rollup",
+    "boilerplate"
+  ],
+  "author": "akshay Nair,",
+  "repository": "https://github.com/Akshaay9/finalUiTest",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@storybook/react": "^6.5.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
