@@ -1,6 +1,6 @@
 {
   "name": "@akshaay9/finaluitest",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "test Ui Desc",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -31,7 +31,8 @@
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react-dom": ">=16.8.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -49,6 +50,7 @@
   "dependencies": {
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4"
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "styled-components": "^5.3.6"
   }
 }

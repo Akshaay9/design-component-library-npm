@@ -8,7 +8,7 @@ module.exports = {
   webpackFinal: async (config) => {
     config.module.rules.push({
       test: /\.scss$/,
-      use: ["style-loader", "css-loader"],
+      use: ["style-loader", "css-loader", "sass-loader"],
       include: path.resolve(__dirname, "../"),
     });
 
@@ -16,7 +16,7 @@ module.exports = {
       test: /\.(ts|tsx)$/,
       loader: require.resolve("babel-loader"),
       options: {
-        presets: [["react-app", { flow: false, typescript: true }]],
+        presets: [["react-app", { flow: false, typescript: false }]],
       },
     });
     config.resolve.extensions.push(".js", ".jsx");
