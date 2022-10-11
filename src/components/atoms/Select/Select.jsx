@@ -7,6 +7,7 @@ export const Select = () => {
         <option>Bey</option>
         <option>See</option>
         <option>Dee</option>
+        <option>Dee</option>
     </select>
   )
 }
