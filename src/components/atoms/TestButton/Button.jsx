@@ -1,8 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const ButtonCom = () => {
-  return (
-    <button>Button Ted Bro</button>
-  )
-}
-
+  return <button>Button Ted Bro github test pages</button>;
+};
