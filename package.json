@@ -1,6 +1,6 @@
 {
   "name": "@akshaay9/finaluitest",
-  "version": "2.3.8",
+  "version": "2.3.9",
   "description": "test Ui Desc",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
