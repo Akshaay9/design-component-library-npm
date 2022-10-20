@@ -17,7 +17,7 @@ module.exports = {
     });
 
     config.module.rules.push({
-      test: /\.(ts|tsx)$/,
+      test: /\.(js|jsx)$/,
       loader: require.resolve("babel-loader"),
       options: {
         presets: [["react-app", { flow: false, typescript: false }]],
