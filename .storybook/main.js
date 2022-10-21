@@ -4,7 +4,7 @@ module.exports = {
   stories: ["../src/**/*.stories.jsx"],
   staticDirs: ["../public"],
   // Add any Storybook addons you want here: https://storybook.js.org/addons/
-  // addons: ["@storybook/addon-essentials"],
+  addons: ["@storybook/addon-essentials"],
   managerWebpack: (config, options) => {
     options.cache.set = () => Promise.resolve();
     return config;
