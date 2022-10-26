@@ -1,6 +1,6 @@
 {
-  "name": "@akshaay9/finaluitest",
-  "version": "3.6.6",
+  "name": "@akshaay9/design-component-library-npm",
+  "version": "3.6.7",
   "description": "test Ui Desc",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -27,7 +27,7 @@
     "boilerplate"
   ],
   "author": "akshay Nair,",
-  "repository": "https://github.com/Akshaay9/finalUiTest",
+  "repository": "https://github.com/Akshaay9/design-component-library-npm",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
