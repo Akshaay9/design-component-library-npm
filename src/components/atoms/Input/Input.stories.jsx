@@ -1,5 +1,5 @@
 import React from "react";
-import { InputComponent } from "./input";
+import { InputComponent } from "./Input";
 import {
   booleanControl,
   numberControl,
