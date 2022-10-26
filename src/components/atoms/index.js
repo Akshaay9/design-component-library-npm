@@ -1,6 +1,5 @@
 export * from "./TestButton";
-export * from "./Input";
 export * from "./Select";
 export * from "./Text";
 export * from "./typography";
-export * from "./input"
+export * from "./input";
