@@ -13,7 +13,7 @@ export default {
   title: "Input And TextBox",
 };
 
-const inputCallBackHandler = (inputVal, inputName) => {
+const inputCallBackHandler = () => {
   //  console.log(inputName, inputVal);
 };
 
