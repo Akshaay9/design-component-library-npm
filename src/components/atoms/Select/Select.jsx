@@ -1,13 +1,7 @@
-import React from "react";
+import {SingleSelect} from "./components/singleSelect"
+import {MultiSelect} from "./components/multiSelect"
 
-export const Select = () => {
-  return (
-    <select>
-      <option>Hey</option>
-      <option>Bey</option>
-      <option>See</option>
-      <option>Dee</option>
-      <option>Dee</option>
-    </select>
-  );
+export const Select = {
+  SingleSelect,
+  MultiSelect,
 };

@@ -5,7 +5,7 @@ import { InputStyle } from "./input.style";
 const AntDTextArea = AntDInput.TextArea;
 
 // Input text
-export const InputText = ({
+const InputText = ({
   placeHolder = "Add Your PlaceHolder",
   size = "default",
   status = "none",
@@ -53,7 +53,7 @@ export const InputText = ({
 };
 
 // Input Text Area
-export const InputTextBox = ({
+const InputTextBox = ({
   placeHolder = "Add Your PlaceHolder",
   rows = 4,
   disabled = false,
@@ -94,7 +94,7 @@ export const InputTextBox = ({
 };
 
 // Input Number
-export const InputNumber = ({
+const InputNumber = ({
   placeHolder = "Enter Number",
   value = 0,
   size = "default",
