@@ -1,6 +1,6 @@
 {
   "name": "@akshaay9/design-component-library-npm",
-  "version": "4.6.9",
+  "version": "4.7.9",
   "description": "test Ui Desc",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
