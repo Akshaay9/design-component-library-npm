@@ -115,6 +115,6 @@ TimePickerStory.args = {
   status: "none",
   allowClear: true,
   disabled: false,
-  value: "2:22:01 PM",
+  value: "2:21:01 PM",
   width: 130,
 };
